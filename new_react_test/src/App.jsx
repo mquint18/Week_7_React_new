@@ -1,6 +1,7 @@
 import Welcome from './componets/Welcome';
 import UserCard from './componets/UserCard';
 import CarRecord from './componets/CarRecord';
+import UserCard2 from './componets/UserCard2';
 import './App.css';
 import { useState } from 'react';
 
@@ -10,7 +11,7 @@ function App() {
     <section>
     
     
-    <div>
+    <div className='card'>
       <Welcome/>
 
       <UserCard
@@ -23,13 +24,20 @@ function App() {
         age = '33'
         />
     </div>  
-    <div>
+    <div className='card2'>
       <CarRecord
         make = 'Toyota'
         model = 'Corolla'
         miles = '45998'
-        color = 'blue'
+        color = 'green'
       />
+    </div>
+    <div>
+      <UserCard2
+        subject = 'react'
+        id = '223'
+      />
+
     </div>
   </section>
 
