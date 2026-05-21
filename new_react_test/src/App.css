@@ -45,3 +45,14 @@ h2{
   margin: 50px;
   border-radius: 10px;
 }
+.clickup {
+  background-color: green ;
+  color: gold;
+  border-radius: 10px;
+}
+
+.clickdown {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}

@@ -2,6 +2,7 @@ import Welcome from './componets/Welcome';
 import UserCard from './componets/UserCard';
 import CarRecord from './componets/CarRecord';
 import UserCard2 from './componets/UserCard2';
+import CounterButton from './componets/CounterButton';
 import './App.css';
 import { useState } from 'react';
 
@@ -13,6 +14,14 @@ function App() {
     
     <div className='card'>
       <Welcome/>
+      </div>
+      
+      <div>
+
+        <CounterButton/>
+      </div>
+
+      <div>
 
       <UserCard
         name = "michael"
